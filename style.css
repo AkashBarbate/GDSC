@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+nav img{
+    height: 70px;
+}
+
+body{
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(1, 1, 62), rgb(118, 74, 146));
+    color: white;
+}
+
+#main{
+    width: 85vw;
+    height: 90vh;
+    padding: 70px 5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.mainJam img{
+    width: 35vw;
+    
+    padding-right: 150px;
+}
+
+.mainleft h1{
+    font-size: 60px;
+    color: rgb(145, 43, 255);
+}
+
+.mainleft h4{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.mainleft h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #707275;
+}
+#blogsSec{
+    color: white !important; 
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    
+}
+.blogs{
+color: white !important;
+padding: 30px;
+width: 60vw;
+max-width: 750px;
+border-radius: 20px;
+background-color: rgba(148,197,197,0.1);
+border: 1px solid rgba(251,248,248.0.5);
+}
+
+.blogs:hover{
+cursor: pointer;
+scale: 1.01 1.01;
+ background-color: rgba(222,255,255,0.12);
+ border: 1px solid rgba(251,248,248.0.7);
+
+}
+.blogs .blogsTitle{
+    width: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(145,43,255);
+}
+.blogs .blogsContent{
+    display: flex;
+    justify-content: center;
+}
+.blogs .blogsContent .left{
+    text-align: center;
+}
+.blogs .blogsContent .left img{
+    max-width: 170px;
+    border-radius: 10px;
+}
+.blogs .blogsContent .para{
+    padding-left: 30px;
+    text-align: justify;
+    padding-top: 30px;
+    color: white ;
+}
+.box .boxContent .right .username{
+    text-align: end;
+    padding-top: 100px;
+    color: #02ccff;
+}
+
+#AppDev{
+    color: white !important; 
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+   
+}
+.box{
+color: white !important;
+padding: 30px;
+width: 60vw;
+max-width: 750px;
+border-radius: 20px;
+background-color: rgba(148,197,197,0.1);
+border: 1px solid rgba(251,248,248.0.5);
+}
+
+.box:hover{
+cursor: pointer;
+scale: 1.01 1.01;
+background-color: rgba(222,255,255,0.12);
+border: 1px solid rgba(251,248,248.0.7);
+
+}
+.box .boxTitle{
+    width: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(145,43,255);
+}
+.box .boxContent{
+    display: flex;
+    justify-content: center;
+}
+.box .boxContent .left{
+    text-align: center;
+}
+.box .boxContent .left img{
+    max-width: 170px;
+    border-radius: 10px;
+}
+.box .boxContent .para{
+    padding-left: 30px;
+    text-align: justify;
+    padding-top: 30px;
+    color: white ;
+}
+.blogs .blogsContent .right .username{
+    text-align: end;
+    padding-top: 100px;
+    color: #02ccff;
+}
+#AI{
+    color: white !important; 
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+   
+}
+.box2{
+color: white !important;
+padding: 30px;
+width: 60vw;
+max-width: 750px;
+border-radius: 20px;
+background-color: rgba(148,197,197,0.1);
+border: 1px solid rgba(251,248,248.0.5);
+}
+
+.box2:hover{
+cursor: pointer;
+scale: 1.01 1.01;
+background-color: rgba(222,255,255,0.12);
+border: 1px solid rgba(251,248,248.0.7);
+
+}
+.box2 .box2Title{
+    width: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(145,43,255);
+}
+.box2 .box2Content{
+    display: flex;
+    justify-content: center;
+}
+.box2 .box2Content .left{
+    text-align: center;
+}
+.box2 .box2Content .left img{
+    max-width: 170px;
+    border-radius: 10px;
+}
+.box2 .box2Content .para{
+    padding-left: 30px;
+    text-align: justify;
+    padding-top: 30px;
+    color: white ;
+}
+.box2 .box2Content .right .username{
+    text-align: end;
+    padding-top: 100px;
+    color: #02ccff;
+}
+#Footer{
+    width: 83vw;
+    height: 20vh;
+    padding: 30px 8vw;    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color:rgba(52, 46, 54, 0.8);      
+}
+.left{
+    padding-right: 9vw;
+    max-width: 50vw;
+}
+.left h1{
+    
+    color: rgb(188, 30, 255);
+}
+.left h5{
+    color: #707275;
+}
+.right h3{
+    color: #707275;
+}
+.right h3:hover{
+    cursor: pointer;
+    scale: 1.01 1.01;
+    color: rgb(69, 69, 206);
+    border: 1px solid rgba(251,248,248.0.7);
+        
+}
+.middle{
+    padding-top: 30px;
+}
+.middle img{
+    max-width: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-bottom: 1px;
+}
+
